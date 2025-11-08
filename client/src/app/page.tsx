@@ -14,7 +14,7 @@ export default function Home() {
     isExpired: boolean
   }
 
- const BASE_URL = 'http://localhost:3001'
+ const BASE_URL = 'https://crud-1-upr7.onrender.com'
  const [products , setProducts] = useState<Product[]>([])
  const [show,setShow] = useState(false)
  const [isUpdate, setIsUpdate] = useState(false)
