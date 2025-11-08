@@ -21,6 +21,7 @@ export default function CreateProduct({closeModal , getData , isUpdate , id , se
   const createProduct = () => {
     if(category !== "" && name !== "" || price !== ""){
       setHide()
+      closeModal()
     }
   }
 
