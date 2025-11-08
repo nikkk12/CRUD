@@ -69,5 +69,5 @@ app.put('/api/update/:id' , async (req,res) => {
 })
 
 app.listen(3001, () => {
-    console.log("server running on http://localhost:3000")
+    console.log("server running on https://crud-1-upr7.onrender.coms")
 })
